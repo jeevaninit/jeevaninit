@@ -1,0 +1,29 @@
+@font-face {
+    font-family:myfont;
+    src: url(fonts/tahoma.ttf);
+}
+body {
+   background-image: url(images/mybg.webp);
+    color:rgb(2, 10, 17);
+    font-family: myfont;
+    background-size: 100%;
+}
+div {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    font-size: 100px;
+}
+
+#date {
+    font-size: 40px;
+
+}
+div .ampm {
+font-size: 20px;
+}
+article {
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+}
